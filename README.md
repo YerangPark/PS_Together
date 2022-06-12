@@ -14,7 +14,7 @@ Lorem Ipsum
 
 - 박예랑 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dpfkdvkr)](https://solved.ac/dpfkdvkr)
-  <img src="http://mazandi.herokuapp.com/api?handle={dpfkdvkr}&theme=warm"/>
+![mazandi profile](http://mazandi.herokuapp.com/api?handle={dpfkdvkr}&theme=warm)
 
 - 안성민 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=zzzdks760)](https://solved.ac/zzzdks760)
