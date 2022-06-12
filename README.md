@@ -18,6 +18,7 @@ Lorem Ipsum
 
 - 안성민 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=zzzdks760)](https://solved.ac/zzzdks760)
+<!--![mazandi profile](http://mazandi.herokuapp.com/api?handle={zzzdks760}&theme=warm)-->
 
 
 </br>
