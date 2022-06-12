@@ -12,12 +12,9 @@ Lorem Ipsum
 
 ## 🙋 구성원
 
-- 박예랑
-  - 사용 언어 : <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  - Solved.ac Rank : [![Solved.ac
+- 박예랑 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=dpfkdvkr)](https://solved.ac/dpfkdvkr)
-- 안성민
-  - 사용 언어 : <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+- 안성민 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
 </br>
 
