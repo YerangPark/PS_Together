@@ -7,6 +7,6 @@ for i in range(N):
         avg = sum(li[1:]) / li[0]
         if j > avg:
             cnt += 1
-    rate = N / li[0]*100
+    rate = cnt / li[0]*100
     print(f'{rate:.3f}%')
 
