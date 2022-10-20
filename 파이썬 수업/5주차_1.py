@@ -21,14 +21,14 @@
 # else:
 #     print("여자입니다")
 
-Temp = int(input())
+# Temp = int(input())
 
-if Temp >= 20:
-    print("반팔")
-elif Temp >= 10:
-    print("긴팔")
-else:
-    print("패딩")
+# if Temp >= 20:
+#     print("반팔")
+# elif Temp >= 10:
+#     print("긴팔")
+# else:
+#     print("패딩")
 
 
 xxl = 0
@@ -39,16 +39,16 @@ xs = 0
 
 for i in range(5):
     Size = int(input("치수를 입력하시오 : "))
-    if Size >= 100:
+    if Size > 100:
         xxl += 1 
-    elif Size <= 100:
+    elif Size > 95:
         xl += 1
-    elif Size <= 95:
+    elif Size > 90:
         m += 1
-    elif Size <= 90:
+    elif Size > 85:
         s += 1
-    elif Size <= 85:
-        xs += 1
+    elif Size > 80:
+        s += 1
 print(xxl, xl, m, s, xs,)
 
 
