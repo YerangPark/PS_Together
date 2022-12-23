@@ -1,13 +1,14 @@
 n = int(input())
-chang = sang = 100
+arr = list(map(int, input().split()))
+arr.sort()
 
-for i in range(n):
-    a, b = map(int, input().split())
+result = 0
+count = 0
 
-    if a > b:
-        sang -= a
-    elif a < b:
-        chang -= b
-    else:
-        continue
-print(chang, sang, sep='\n')
+for i in arr:
+    count += 1
+    if count >= i:
+        result += 1
+        print(count)
+        count = 0
+print(result)
