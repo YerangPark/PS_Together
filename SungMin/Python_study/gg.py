@@ -1,9 +1,6 @@
-N = int(input())
-Time = list(map(int, input().split()))
-Time.sort()
-result = 0
+def factorial_recursive(n):
+    if n <= 1:
+        return 1
+    return n * factorial_recursive(n-1)
 
-for i in range(N):
-    for j in range(i+1):
-        result += Time[j]
-print(result)
+print(factorial_recursive(5))

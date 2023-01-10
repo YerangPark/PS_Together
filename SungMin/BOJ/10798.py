@@ -12,7 +12,6 @@ for i in range(max(li)):
     for j in range(5):
         if i < li[j]:
             res += words[j][i]
-print(li)
 print(res)
 
 
