@@ -1,19 +1,12 @@
-# N = int(input())
-# dist = list(map(int, input().split()))
-# cost = list(map(int, input().split()))
-# result = 0
-# sum = 0
+n = int(input())
+dist = list(map(int, input().split()))
+cost = list(map(int, input().split()))
 
-# del cost[-1]
-# min_c = min(cost)
+cost_min = cost[0]
+result = 0
 
-# for i in range(len(cost)):
-#     for j in range(len(dist)):
-#         if cost[i] == min_c:
-#             result += cost[i] * dist[j]
-#         else:
-#             sum += cost[i] * dist[j]
-#             break
-
-# print(result)
-# print(sum)
+for i in range(n-1):
+    if cost_min > cost[i]:
+        cost_min = cost[i]
+    result += cost_min * dist[i]
+print(result)
