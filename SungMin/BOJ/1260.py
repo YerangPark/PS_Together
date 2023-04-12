@@ -23,13 +23,12 @@ def bfs(v):
     queue.append(v)
 
     while queue:
-        v = queue.popleft()
-        print(v, end= " ")
+        x = queue.popleft()
+        print(x, end= " ")
         for i in range(1, n+1):
-            if visited2[i] == 0 and graph[v][i] == 1:
+            if visited2[i] == 0 and graph[x][i] == 1:
                 visited2[i] = 1
                 queue.append(i)
 dfs(v)
 print()
 bfs(v)
-print(graph)
