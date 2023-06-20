@@ -1,35 +1,34 @@
 import java.io.*;
+import java.util.*;
 
 public class BJ2920 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = 0;
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        int[] arr = new int[8];
 
-        while (true) {
-
-            int temp = br.read();
-
-            if (temp < 'A')
-                break;
-            else if (temp < 'D')
-                n += 3;
-            else if (temp < 'G')
-                n += 4;
-            else if (temp < 'J')
-                n += 5;
-            else if (temp < 'M')
-                n += 6;
-            else if (temp < 'P')
-                n += 7;
-            else if (temp < 'T')
-                n += 8;
-            else if (temp < 'W')
-                n += 9;
-            else if(temp <= 'Z')
-                n += 10;
+        for (int i = 0; i < 8; i ++) {
+            int num = Integer.parseInt(st.nextToken());
+            arr[i] = num;
         }
-        System.out.print(n);
+        int cnt = 0;
+        for (int i = 0; i < 7; i++) {
+            if (arr[i] + 1 == arr[i+1]) {
+                cnt += 1;
+            }
+            else if (arr[i] - 1 == arr[i+1]) {
+                cnt -= 1;
+            }
+        }
+        if (cnt == 7) {
+            System.out.println("ascending");
+        }
+        else if (cnt == -7) {
+            System.out.println("descending");
+        }
+        else {
+            System.out.println("mixed");
+        }
     }
-    
 }
